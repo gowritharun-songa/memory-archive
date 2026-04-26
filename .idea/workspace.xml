@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80d35ca-b794-4b76-8559-618c17a818f2" name="Changes" comment="Upstash Database migrated">
-      <change afterPath="$PROJECT_DIR$/frontend/app/favicon.ico.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/memoController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/memoController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Memory.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Memory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/lib/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/lib/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +116,7 @@
       <workItem from="1772284391976" duration="6751000" />
       <workItem from="1775634037602" duration="139000" />
       <workItem from="1777181532864" duration="817000" />
-      <workItem from="1777190262463" duration="2698000" />
+      <workItem from="1777190262463" duration="3628000" />
     </task>
     <task id="LOCAL-00001" summary="final commit">
       <option name="closed" value="true" />
