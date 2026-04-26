@@ -21,7 +21,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 const allowedOrigins = [
-    'https://memory-archive-ten.vercel.app',
+    'https://memory-archive-two.vercel.app',
     'http://localhost:3000',
     'http://127.0.0.1:3000'
 ];
