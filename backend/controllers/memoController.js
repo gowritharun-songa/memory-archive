@@ -56,10 +56,15 @@ export const postMemo = async (req, res) => {
       savedMemo
     });
   } catch (error) {
-    console.error("Error in postMemo", error);
-    res.status(500).json({
-      message: "Internal server error"
-    })
+  console.error("Error in postMemo", error);
+  
+  if (error.name === "ValidationError") {
+     return res.status(400).json({
+       message: Object.values(error.errors)[0].message
+     });
+   }
+  
+    res.status(500).json({ message: "Internal server error" });
   }
 }
 

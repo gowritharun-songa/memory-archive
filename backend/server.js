@@ -8,7 +8,7 @@ import connectDB from "./config/db.js";
 import rateLimiter from "./middleware/rateLimiter.js";
 
 dotenv.config({
-    quiet: true,
+    quiet: true
 });
 
 cloudinary.config({
@@ -20,11 +20,16 @@ cloudinary.config({
 const app = express();
 const PORT = process.env.PORT;
 
-const allowedOrigins = ['https://memory-archive-ten.vercel.app'];
+const allowedOrigins = [
+    'https://memory-archive-ten.vercel.app',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000'
+];
 
+// middlewares
 app.use(express.json());
 app.use(cors({
-    origin: (origin, callback) => {
+    origin: function(origin, callback) {
         if (!origin || allowedOrigins.includes(origin)) {
             callback(null, true);
         } else {
